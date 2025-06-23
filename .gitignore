@@ -1,0 +1,96 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment folders
+venv/
+.env/
+.env.*
+.venv/
+*.env/
+
+# IDE directories and files
+.idea/
+.vscode/           # VSCode settings
+*.sublime-workspace
+*.sublime-project
+
+# Distribution/Packaging
+build/
+dist/
+*.egg-info/
+
+# PyInstaller
+# Uncomment this line if you're using PyInstaller
+# *.spec
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Python Egg
+*.egg
+*.egg-info/
+.eggs/
+
+# C extensions
+*.c
+*.cpp
+*.h
+
+# logs
+*.log
+
+# Test output
+nosetests.xml
+coverage.xml
+*.cover
+*.hypothesis/
+*.tox/
+*.nox/
+.coverage
+*.pytest_cache/
+*.hypothesis/
+
+# MyPy
+.mypy_cache/
+
+# Flake8
+.flake8
+
+# Black
+.black/
+
+# pyright
+.pyright/
+
+# Other files
+*.bak
+*.swp
+*.swo
+*.tmp
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# JetBrains IDE
+*.iml
+
+# Python Packaging
+*.pyd
+*.pyo
+
+.env
+poetry.lock
+
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.plan
+*.log
+
+terraform.tfvars
+*.zip
