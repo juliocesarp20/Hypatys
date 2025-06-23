@@ -94,3 +94,4 @@ poetry.lock
 
 terraform.tfvars
 *.zip
+*.hcl
